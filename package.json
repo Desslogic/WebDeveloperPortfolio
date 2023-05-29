@@ -1,41 +1,38 @@
 {
-  "name": "portfolio-sanity-build",
-  "version": "0.1.0",
+  "name": "portfolio-demo",
   "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": null,
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "sanity start",
+    "build": "sanity build"
   },
+  "keywords": [
+    "sanity"
+  ],
   "dependencies": {
-    "@heroicons/react": "^2.0.18",
-    "@portabletext/react": "^1.0.6",
-    "@ramonak/react-progress-bar": "^5.0.2",
-    "@sanity/image-url": "^1.0.1",
-    "add": "^2.0.6",
-    "framer-motion": "^7.3.2",
-    "framer-motion-carousel": "^2.0.1",
-    "next": "^12.3.0",
-    "next-sanity": "^0.8.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.44.1",
-    "react-simple-typewriter": "^4.0.5",
-    "react-social-icons": "^5.15.0",
-    "yarn": "^1.22.19"
+    "@sanity/base": "^2.33.2",
+    "@sanity/core": "^2.33.2",
+    "@sanity/default-layout": "^2.33.2",
+    "@sanity/default-login": "^2.33.2",
+    "@sanity/desk-tool": "^2.33.2",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.33.2",
+    "eslint": "^8.6.0",
+    "framer-motion": "^5.6.0",
+    "next": "^13.4.4",
+    "prop-types": "^15.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.2.0",
+    "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
     "@types/next": "^9.0.0",
-    "@types/node": "18.7.16",
-    "@types/react": "^18.0.19",
-    "@types/react-dom": "^18.0.6",
-    "autoprefixer": "^10.4.9",
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0",
-    "postcss": "^8.4.16",
-    "tailwind-scrollbar": "^2.0.1",
-    "tailwindcss": "^3.1.8",
-    "typescript": "4.8.3"
+    "@types/react": "^17.0.50",
+    "@types/react-dom": "^18.2.4"
   }
 }
